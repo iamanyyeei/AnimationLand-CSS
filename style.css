@@ -1,0 +1,699 @@
+:root{
+    margin: 0;
+    padding: 0;
+
+    --back-principal: rgb(34,193,195);
+    --bunny: azure;
+    --bunny-eyes: black;
+    --oreja-centro: pink;
+    --back-mountain: lime;
+    --triangle-back: peru;
+    --triangle-front: green;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+.phone{
+    width: 300px;
+    height: 600px;
+    border: 8px solid black;
+    border-radius: 30px;
+    background: rgb(255,192,125);
+background: linear-gradient(0deg, rgba(255,192,125,1) 0%, rgba(243,246,133,1) 44%, rgba(0,138,255,1) 100%);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.text{
+    position: absolute;
+    left: 24%;
+    top:-10px;
+    background-color: rgba(252, 252, 252, 0.514);
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.text p:nth-child(1){
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 80%;
+    color: darkblue;
+}
+
+.text p:nth-last(2){
+    color: black;
+}
+
+.conejito1{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.conejito1 .oreja1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    left: 10px;
+}
+
+.conejito1 .oreja-centro1{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    left: 13px;
+}
+
+.conejito1 .oreja2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    right: 10px;
+}
+
+.conejito1 .oreja-centro2{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    right: 13px;
+}
+
+.conejito1 .cuerpo1{
+    position: absolute;
+    background-color: var(--bunny);
+
+    width: 60px;
+    height: 80px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.conejito1 .eyes1{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    left: 12px;
+}
+
+.conejito1 .circle1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    left: 14px;
+}
+
+.conejito1 .eyes2{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    right: 12px;
+}
+
+.conejito1 .circle2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    right: 14px;
+}
+
+.conejito2{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+}
+
+.conejito2 .oreja1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    left: 10px;
+}
+
+.conejito2 .oreja-centro1{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    left: 13px;
+}
+
+.conejito2 .oreja2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    right: 10px;
+}
+
+.conejito2 .oreja-centro2{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    right: 13px;
+}
+
+.conejito2 .cuerpo1{
+    position: absolute;
+    background-color: var(--bunny);
+
+    width: 60px;
+    height: 80px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.conejito2 .eyes1{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    left: 12px;
+}
+
+.conejito2 .circle1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    left: 14px;
+}
+
+.conejito2 .eyes2{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    right: 12px;
+}
+
+.conejito2 .circle2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    right: 14px;
+}
+
+.mountain1{
+    width: 76%;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    top: 140px;
+    left: 36px;
+
+    background-color: tan;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 20px;
+
+    box-shadow: 0px 14px 56px -10px rgba(0,0,0,0.72);
+    overflow: hidden;
+}
+
+.container1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+ .container1 .tri{
+    width: 0;
+    height: 0;
+    border: 7px solid saddlebrown;
+    border-right-color: transparent;
+    border-left-color:  transparent;
+    border-width: 0px 26px 55px;
+    transform: rotate(180deg);
+}
+
+
+.container2{
+    display: flex;
+    gap: 4px;
+    left: 2px;
+    position: absolute;
+    align-items: center;
+}
+
+ .container2 .tri{
+    width: 0;
+    height: 0;
+    border: 7px solid yellowgreen;
+    border-right-color: transparent;
+    border-left-color:  transparent;
+    border-width: 0px 24px 40px;
+    transform: rotate(180deg);
+}
+
+.conejito3{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+
+.conejito3 .oreja1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    left: 10px;
+}
+
+.conejito3 .oreja-centro1{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    left: 13px;
+}
+
+.conejito3 .oreja2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    right: 10px;
+}
+
+.conejito3 .oreja-centro2{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    right: 13px;
+}
+
+.conejito3 .cuerpo1{
+    position: absolute;
+    background-color: var(--bunny);
+
+    width: 60px;
+    height: 80px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.conejito3 .eyes1{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    left: 12px;
+}
+
+.conejito3 .circle1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    left: 14px;
+}
+
+.conejito3 .eyes2{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    right: 12px;
+}
+
+.conejito3 .circle2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    right: 14px;
+}
+
+.mountain2{
+    width: 70%;
+    left: -20px;
+    height: 300px;
+    position: relative;
+    justify-content: center;
+    top: -100px;
+
+    background-color: tan;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 20px;
+
+    box-shadow: 0px 14px 56px -10px rgba(0,0,0,300);
+    overflow: hidden;
+}
+
+.container1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+ .container1 .tri{
+    width: 0;
+    height: 0;
+    border: 7px solid saddlebrown;
+    border-right-color: transparent;
+    border-left-color:  transparent;
+    border-width: 0px 26px 55px;
+    transform: rotate(180deg);
+}
+
+
+.container2{
+    display: flex;
+    gap: 4px;
+    left: 2px;
+    position: absolute;
+    align-items: center;
+}
+
+ .container2 .tri{
+    width: 0;
+    height: 0;
+    border: 7px solid yellowgreen;
+    border-right-color: transparent;
+    border-left-color:  transparent;
+    border-width: 0px 24px 40px;
+    transform: rotate(180deg);
+}
+
+.conejito4{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 380px;
+    right: 50px;
+}
+
+.conejito4 .oreja1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    left: 10px;
+}
+
+.conejito4 .oreja-centro1{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    left: 13px;
+}
+
+.conejito4 .oreja2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 16px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -26px;
+    right: 10px;
+}
+
+.conejito4 .oreja-centro2{
+    position: absolute;
+    background-color: var(--oreja-centro);
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: -20px;
+    right: 13px;
+}
+
+.conejito4 .cuerpo1{
+    position: absolute;
+    background-color: var(--bunny);
+
+    width: 60px;
+    height: 80px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.conejito4 .eyes1{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    left: 12px;
+}
+
+.conejito4 .circle1{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    left: 14px;
+}
+
+.conejito4 .eyes2{
+    position: absolute;
+    background-color: var(--bunny-eyes);
+    width: 12px;
+    height: 18px;
+    border-radius: 50%;
+
+    top: 14px;
+    right: 12px;
+}
+
+.conejito4 .circle2{
+    position: absolute;
+    background-color: var(--bunny);
+    width: 8px;
+    height: 9px;
+    border-radius: 50%;
+
+    top: 20px;
+    right: 14px;
+}
+
+.mountain3{
+    width: 70%;
+    height: 300px;
+    position: relative;
+    justify-content: center;
+    bottom: 280px;
+    right: -100px;
+
+    background-color: tan;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 20px;
+
+    box-shadow: 0px 14px 56px -10px rgba(0,0,0,300);
+    overflow: hidden;
+}
+
+.arbusto-centro{
+    width: 120px;
+    height: 160px;
+    background-color: green;
+    border-radius: 60%;
+    top: 80%;
+    right: 100px;
+
+    position: absolute;
+}
+
+.arbusto-right{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 60%;
+    top: 84%;
+    right: 40px;
+
+    position: absolute;
+}
+
+.arbusto-left{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 60%;
+    top: 84%;
+    left: 40px;
+
+    position: absolute;
+}
+
+.nube1-centro{
+    width: 80px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60%;
+    top: 86%;
+    right: 20px;
+
+    position: absolute;
+}
+
+.nube1-right{
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    border-radius: 60%;
+    top: 90%;
+    right: -30px;
+
+    position: absolute;
+}
+
+.nube1-left{
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    border-radius: 60%;
+    top: 92%;
+    right: 60px;
+
+    position: absolute;
+}
+
+.nube2-centro{
+    width: 80px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60%;
+    top: 86%;
+    left: 10px;
+
+    position: absolute;
+}
+
+.nube2-right{
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    border-radius: 60%;
+    top: 90%;
+    left: -20px;
+
+    position: absolute;
+}
+
+.nube2-left{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 60%;
+    top: 94%;
+    left: 40px;
+
+    position: absolute;
+}
